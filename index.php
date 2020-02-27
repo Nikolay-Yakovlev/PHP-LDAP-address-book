@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 /*
 
 This scropt was made by Nikolay Yakovlev (Russia).
@@ -170,7 +169,7 @@ if ($ds) {
     ldap_sort($ds,$sr, "givenname");
     $info = ldap_get_entries($ds, $sr); 
 
-    $sr2=ldap_search($ds,$dn2 ,$filter2 );   
+    $sr2=ldap_search($ds,$dn ,$filter2 );   
     $placeinfo = ldap_get_entries($ds, $sr2); 
 //fields to place from AD 
 $PlaceName = $placeinfo[0]["l"][0];  			// name of place
