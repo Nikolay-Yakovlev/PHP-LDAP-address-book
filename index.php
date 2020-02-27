@@ -159,7 +159,7 @@ echo "
 
 //search filter 
 $filter ="(&(objectcategory=user)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))"; //all users, but disabled
-
+$filter2 ="(objectCategory=OrganizationalUnit)"; //for getting info about place
 $ds=ldap_connect($srv);   
 if ($ds) { 
     $r=ldap_bind($ds,$srv_login,$srv_password);;     
