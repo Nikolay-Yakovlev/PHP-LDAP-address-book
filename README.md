@@ -5,4 +5,3 @@ I use PHP + ldup to get info from AD.
 Taking this codeas a sample you can get any info from AD you want.
 All code i made have comments inside to better understanding how it works.
 You can use this files as you want in your work, if you can make it better - feel free to change it!
-See the picture1.png and picture2.png for understand how it loocs like.
