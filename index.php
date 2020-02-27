@@ -2,7 +2,7 @@
 error_reporting(0);
 /*
 
-This scropt was made by Nikolay Yakovlev (russia).
+This scropt was made by Nikolay Yakovlev (Russia).
 You can made whatever you want with it.
 
 */
