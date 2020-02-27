@@ -72,10 +72,8 @@ else if ($doscript) { //if we get place name we can run main part of script
 		padding:5px;
 		height:22px;
 		border-color:#7d7d7d;}
-	/* Нечетные строки */
 		#table tbody tr:nth-child(odd){
 		background: #fff;}
-	/* Четные строки */
 		#table tbody tr:nth-child(even){
 		background: #F7F7F7;}	
 	#noborder{
@@ -154,7 +152,7 @@ echo "
 <a href='index.php?place=main' id='top' >
 <br><br><br>
 <img src='back_to_main.png' alt='' border='0' width='75' height='60'/>
-<p>На главную</p></a>
+<p>Back to main</p></a>
 </td></tr></table>
 ";
 //end of arrow "back"
@@ -186,7 +184,7 @@ echo"<table align='center' height = '80'>
 	<tr><td id='noborder' >". $PlaceAddres ."</td></tr>
     </table>
 <table align='center' id='table'>
-	<tr><td width='35' bgcolor = #f0f0e4>  № </td>
+	<tr><td width='35' bgcolor = #f0f0e4>  В№ </td>
 	<td width='300' bgcolor = #f0f0e4> Name </td>
 	<td width='250' bgcolor = #f0f0e4> E-mail </td>
 	<td width='60' bgcolor = #f0f0e4> Phone </td>
